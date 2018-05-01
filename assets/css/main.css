@@ -9,11 +9,11 @@
 /* Reset */
 
 @font-face {
-	font-family: "Fontage";
+	font-family: "Frontage";
 	src: url('FRONTAGE-REGULAR.OTF');
 }
 @font-face {
-	font-family: "Fontage";
+	font-family: "Frontage";
 	font-weight: bold;
 	src: url('FRONTAGE-BOLD.OTF');
 }
@@ -1914,7 +1914,7 @@ body, input, select, textarea {
 body, input, select, textarea {
 
     color: rgba(255, 255, 255, 0.55);
-    font-family: Fontage;
+    font-family: Frontage;
     font-size: 16.5pt;
     font-weight: normal;
     line-height: 1.75;
@@ -1928,7 +1928,7 @@ body {
 
 	@media screen and (max-width: 736px) {
 
-		h1 {
+		h1 {font
 			font-size: 2em;
 		}
 
@@ -2868,7 +2868,7 @@ body {
 					ul.icons li > a:before, ul.icons li > span:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
-						font-family: Fontage;
+						font-family: Frontage;
 						font-style: normal;
 						font-weight: normal;
 						text-transform: none !important;
